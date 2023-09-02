@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- ============================ header section starts ============================-->
+    <header class="header">
+        <a href="#" class="logo"> <i class="fas fa-university"></i>ACGCET</a>
+
+        <nav class="navbar">
+            <div id="close-navbar" class="fas fa-times"></div>
+            <a href="./home.html">Home</a>
+            <a href="./about.html">About Us</a>
+            <a href="./courses.html">Courses</a>
+            <a href="./contact.html">contact</a>    
+        </nav>
+
+        <div class="icons">
+            <div id="account-btn" class="fas fa-user"></div>
+            <div id="menu-btn" class="fa-solid fa-bars"></div>
+        </div>
+
+    </header>
+
+    <!-- ============================ account form section starts ============================-->  
+    <div class="account-form">
+
+        <div id="close-form" class="fas fa-times"></div>
+        <div class="buttons">
+            <span class="btn active login-btn"> &nbsp; login &nbsp; </span>
+            <span class="btn register-btn">register</span> 
+        </div>
+        
+        <form class="login-form active" action="">
+            <h3>login now</h3>
+            <input type="email" placeholder="enter your email" class="box">
+            <input type="password" placeholder="enter your password" class="box">
+            <div class="flex">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me">remember me</label>
+                <a href="#">forget password? </a>
+            </div>
+            <input type="submit" value="login now" class="btn">
+        </form>
+
+        <form class="register-form" action="">
+            <h3>register now</h3>
+            <input type="email" placeholder="enter your email" class="box">
+            <input type="password" placeholder="enter your password" class="box">
+            <input type="password" placeholder="confirm your password" class="box">
+            <input type="submit" value="register now" class="btn">
+        </form>
+        
+    </div>
+    <!-- ============================ account form section ends ============================-->  
+    <!-- ============================ header section ends ============================-->
+
+    <!-- ============================ home section starts ============================-->
+    <section class="home">
+        <div class="swiper home-slider">
+            <div class="swiper-wrapper">
+                <section class="swiper-slide" style="background: url(./img/ala.jpg)no-repeat;">
+                    <div class="content">
+                        <h3>Alagappa chettiar government college of engineering and technology</h3>
+                        <p>Nurturing minds for better future</p>
+                            <a href="#" class="btn">Yearn to learn</a>
+                    </div>
+                </section>
+
+                <section class="swiper-slide" style="background: url(./img/ala.jpg) no-repeat;">
+                    <div class="content">
+                        <h3>Alagappa chettiar government college of engineering and technology</h3>
+                        <p>Nurturing minds for better future</p>
+                            <a href="#" class="btn">Yearn to learn</a>
+                    </div>
+                </section>
+
+                <section class="swiper-slide" style="background: url(./img/ala.jpg) no-repeat;">
+                    <div class="content">
+                        <h3>Alagappa chettiar government college of engineering and technology</h3>
+                        <p>Nurturing minds for better future</p>
+                            <a href="#" class="btn">Yearn to learn</a>
+                    </div>
+                </section>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <!-- ============================ home section ends ============================-->
+
+    <!-- ============================ subject section starts ============================-->
+    <section class="subjects">
+        <h1 class="heading">ACGCET by numbers</h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="./img/2.png" alt="">
+                <h3>Undergraduate students</h3>
+                <p>300</p>
+            </div>
+
+            <div class="box">
+                <img src="./img/3.jpg" alt="">
+                <h3>Post graduate students</h3>
+                <p>100</p>
+            </div>
+
+            <div class="box">
+                <img src="./img/4.png" alt="">
+                <h3>Professors</h3>
+                <p>10</p>
+            </div>
+
+            <div class="box">
+                <img src="./img/5.png" alt="">
+                <h3>Assistant Professors</h3>
+                <p>14</p>
+            </div>
+
+            <div class="box">
+                <img src="./img/6.png" alt="">
+                <h3>Technical Staffs</h3>
+                <p>12 modules</p>
+            </div>
+
+            <div class="box">
+                <img src="./img/7.png" alt="">
+                <h3>Sucessive Head Of Department</h3>
+                <p>12 modules</p>
+            </div>  
+        </div>
+    </section>
+    <!-- ============================ subject section ends ============================-->
+
+    <!-- ============================ home courses slider section starts ============================-->
+
+    <section class="home-courses">
+
+        <div class="heading"> Consultancy and Innovation</div>
+
+        <div class="swiper home-courses-slider">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="./img/irudium_logo.jpg" alt="">
+                        <h3>R and D cell</h3>
+                    </div>
+                    <div class="container">
+                        <h3>R and D cell</h3>
+                        <p>To generate of innovative ideas and solutions to the academic and societal problem</p>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="./img/irudium_logo.jpg" alt="">
+                        <h3>IOT lab</h3>
+                    </div>
+                    <div class="container">
+                        <h3>IOT lab</h3>
+                        <p>Provides full control of network nodes and direct access to the gateways to which nodes are connected,</p>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="./img/irudium_logo.jpg" alt="">
+                        <h3>Computer Lab</h3>
+                    </div>
+                    <div class="container">
+                        <h3>Computer Lab</h3>
+                        <p>Provide training and guidance to students and staff in I.T and Computers and in Technology. Provide an environment conducive for E-learning and research. </p>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="./img/irudium_logo.jpg" alt="">
+                        <h3>Computer Lab</h3>
+                    </div>
+                    <div class="container">
+                        <h3>Computer Lab</h3>
+                        <p>lorem ipsum dolor sit amet consectetur adipisicing elitc. laborum, ratione?</p>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="./img/irudium_logo.jpg" alt="">
+                        <h3>Computer Lab</h3>
+                    </div>
+                    <div class="container">
+                        <h3>Computer Lab</h3>
+                        <p>lorem ipsum dolor sit amet consectetur adipisicing elitc. laborum, ratione?</p>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="./img/irudium_logo.jpg" alt="">
+                        <h3>Computer Lab</h3>
+                    </div>
+                    <div class="container">
+                        <h3>Computer Lab<</h3>
+                        <p>lorem ipsum dolor sit amet consectetur adipisicing elitc. laborum, ratione?</p>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================ home courses slider section ends ============================-->
+
+    <!-- ============================ footer section starts ============================-->
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3><i class="fas fa-university"></i>ACGCET</h3>
+                <p>Alagappa Chettiar Government College of Engineering and Technology is an autonomous college of engineering in Karaikudi, Tamil Nadu, India. Established in 1952, it is under the control of the government of the State. </p>
+                <div class="share">
+                    <a href="https://www.facebook.com/accet/" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="home.html" class="link">Home</a>
+                <a href="about.html" class="link">About us</a>
+                <a href="courses.html" class="link">Courses</a>
+                <a href="contact.html" class="link">contact</a>
+            </div>
+
+            <div class="box">
+                <h3>useful links</h3>
+                <a href="#" class="link">help center</a>
+                <a href="#" class="link">ask questions</a>
+                <a href="#" class="link">send feedback</a>
+                <a href="#" class="link">private policy</a>
+                <a href="#" class="link">terms of use</a>
+            </div>
+
+            <div class="box">
+                <h3>newsletter</h3>
+                <p>subscribe for latest updates</p>
+                <form action="">
+                    <input type="email" name="" placeholder="enter your email" id="" class="email">
+                    <input type="submit" value="subscribe" class="btn">
+                </form>
+            </div>
+        </div>
+        <div class="credit">created by <span><a href="#">IRUDIUM </a> </span> &<span> <a href="#">team</a> </span>| all rights reserved!</div>
+    </section>
+    <!-- ============================ footer section ends ============================-->
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
